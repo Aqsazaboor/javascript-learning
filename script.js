@@ -76,3 +76,22 @@ console.log(fruits); // ['banana', 'apple', 'peach', empty x 2, 'mango', empty x
 console.log(Object.keys(fruits)); // ['0', '1', '2', '5']
 console.log(fruits.length); // 10
 console.log(fruits[8]); // undefined
+const myArray = ["h", "e", "l", "l", "o"];
+
+// first element
+console.log(myArray[0]); // "h"
+
+// second element
+console.log(myArray[1]); // "e"
+let dailyActivities = ["eat", "sleep"];
+
+// add an element at the end
+dailyActivities.push("exercise");
+
+// console.log(dailyActivities); //  ['eat', 'sleep', 'exercise']
+// let dailyActivities = ["eat", "sleep"];
+
+// //add an element at the start
+// dailyActivities.unshift("work");
+
+// console.log(dailyActivities); // ['work', 'eat', 'sleep']
