@@ -95,3 +95,11 @@ dailyActivities.push("exercise");
 // dailyActivities.unshift("work");
 
 // console.log(dailyActivities); // ['work', 'eat', 'sleep']
+
+function func() {
+  var arr = ["GFG", "gfg", "g4g", "GeeksforGeeks"];
+
+  // Popping the last element from the array
+  console.log(arr.pop());
+}
+func();
